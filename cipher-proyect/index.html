@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Codigo de Cesar</title>
+    <link rel= "stylesheet" href ="style.css"/>
+    <link href= "https://fondos.io/wp-content/uploads/2019/01/fondo-celeste-3.jpg" rel = "stylesheet">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    
+</head>
+<body>
+  <!--Contenedor Cifrado-->
+    
+      <header class ="box-header">
+        <h1><i> Top Secret </i></h1>
+        <p><i> Codifica y Decodifica tus Mensajes </i>
+      </header>
+    
+  <div id = "content-msg-encode">
+        <p> Ingrese el mensaje: </p>
+        <input id= "box-message" class= "box-style" placeholder =  "Ingrese su mensaje"> </input>
+  </div>
+ 
+  <div class = "content-offset">
+    <label class ="label"> Clave </label>
+    <input type= "number" id="numberOffset" class="offsetstyle" min="1" >
+  </div>
+
+  <button id= "bEncode" class ="btncode">Codificar</button>
+  <button id= "btndecode" class ="btncode">Decodificar</button>
+
+  <div id = "box-result" class = "msg-style display_block">
+    <p> Su nuevo mensaje es: </p>
+    <input id= "box-resp" class= "box-style" placeholder =  "Ingrese su mensaje"> </input>
+  </div>
+<button onclick ="location.reload ();" class = "breload" > Limpiar</button>
+
+
+<div id="root"></div>
+
+    <script src="index.js"></script>
+     <script src="cipher.js"></script>
+  </body>
+</html>
