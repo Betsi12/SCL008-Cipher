@@ -35,4 +35,4 @@ y rapidez de respuesta,se adapta perfectamente a la necesidad planteada</p>
 [PlanificacionTrello](https://trello.com/b/7zHdXMGo/planificaci%C3%B3n)
 
 # Demo proyecto
-http://Betsi12.github.io/SCL008-Cipher/cipher-proyect/index.html
+https://betsi12.github.io/SCL008-Cipher/src/index.html
